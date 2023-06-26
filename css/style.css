@@ -21,9 +21,17 @@
   justify-content: center;
   padding: 20px;
 }
+
+/* Left side */
 .layout__left {
   background-color: #ffffff;
 }
+.layout__left img {
+  display: block;
+  width: 450px;
+}
+
+/* Right side*/
 .layout__right {
   background-color: #42a5ff;
   flex-direction: column;
@@ -51,6 +59,9 @@
   }
   .layout > div {
     width: 100%;
+  }
+  .layout__left img {
+    width: 300px;
   }
   .layout__right--copy {
     height: 100vh;
