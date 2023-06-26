@@ -54,7 +54,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .layout {
     display: block;
   }
@@ -65,6 +65,6 @@
     width: 300px;
   }
   .layout__right--copy {
-    height: 100vh;
+    height: 90vh;
   }
 }
