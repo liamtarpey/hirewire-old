@@ -28,7 +28,8 @@
 }
 .layout__left img {
   display: block;
-  width: 450px;
+  width: 80%;
+  max-width: 450px;
 }
 
 /* Right side*/
