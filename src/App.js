@@ -1,6 +1,10 @@
 import "./App.css";
 import LandingPage from "./pages/Landing/Landing.js";
 
+// Theming
+import { ThemeProvider } from "styled-components";
+import { theme } from "./theme.js";
+
 /**
  * Currently we only have a landing page
  * Add react-router when the time is right and we need more pages
@@ -8,9 +12,9 @@ import LandingPage from "./pages/Landing/Landing.js";
  */
 function App() {
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
       <LandingPage />
-    </div>
+    </ThemeProvider>
   );
 }
 

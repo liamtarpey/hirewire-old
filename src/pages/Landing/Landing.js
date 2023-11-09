@@ -1,7 +1,7 @@
 import React from "react";
 
 // Components
-import Nav from "../../components/Nav/Nav";
+import Nav from "../../components/nav/Nav";
 import Contact from "../../components/contact/Contact.js";
 import Footer from "../../components/footer/Footer.js";
 
